@@ -8,6 +8,7 @@ import Places from "../Places/Places.jsx"
 import BannerImg from '../BannerImg/BannerImg.jsx'
 import bannerImg from "../../assets/image/bannerImg.jpeg"
 import Blogs from '../Blogs/Blogs.jsx'
+import Banner from '../Banner/Banner.jsx'
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
         <Places/>
         <BannerImg img={bannerImg}/>
         <Blogs/>
+        <Banner/>
       </div>
     </>
   )
