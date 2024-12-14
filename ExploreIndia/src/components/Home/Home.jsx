@@ -9,6 +9,8 @@ import BannerImg from '../BannerImg/BannerImg.jsx'
 import bannerImg from "../../assets/image/bannerImg.jpeg"
 import Blogs from '../Blogs/Blogs.jsx'
 import Banner from '../Banner/Banner.jsx'
+import Poster from "../../assets/image/poster3.jpeg"
+import Testimonal from '../Testimonal/Testimonal.jsx'
 
 const Home = () => {
   return (
@@ -29,6 +31,8 @@ const Home = () => {
         <BannerImg img={bannerImg}/>
         <Blogs/>
         <Banner/>
+        <BannerImg img={Poster}/>
+        <Testimonal/>
       </div>
     </>
   )
